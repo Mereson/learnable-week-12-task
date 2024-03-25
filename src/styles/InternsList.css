@@ -1,0 +1,83 @@
+body {
+  background: #2f3145;
+}
+
+.displayBlock {
+  display: flex;
+  margin: 0 10px;
+  padding: 10px 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.299);
+  border-radius: 5px;
+  background: #1e1e2e;
+  color: #fff;
+}
+
+.h1 {
+  text-align: center;
+  color: #39dad7;
+}
+
+.internsList {
+  width: 25%;
+  border-right: 1px solid rgba(0, 0, 0, 0.568);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /* position: relative; */
+}
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.internBlock {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.877);
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  transition: 600ms;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #bdbdbb;
+}
+
+.image {
+  width: 30px;
+  height: 30px;
+}
+
+.internBlock:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.299);
+  border-radius: 20px;
+  background: #00c2dc98;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.internsDisplay {
+  width: 75%;
+}
+
+.findIntern {
+  padding: 15px;
+  background: #27293d;
+  margin: 10px 0 20px 0;
+  font-size: 18px;
+  color: #868686;
+  border-radius: 10px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.findIntern:hover {
+  color: #cccccc;
+  background: #414892;
+}

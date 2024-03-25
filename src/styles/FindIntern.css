@@ -1,0 +1,109 @@
+.internsListDisplay {
+  /* padding: 5px 10px; */
+  display: flex;
+  border-bottom: 1px solid black;
+  width: 133.2%;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 500ms;
+}
+
+.internsListDisplay:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.299);
+  /* border-radius: 20px; */
+  background: #00c2dc98;
+  color: black;
+}
+
+.nav {
+  display: flex;
+  width: 133.2%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.name,
+.track,
+.others {
+  padding: 15px 0;
+  margin: 0;
+  border-right: 1px solid black;
+  text-align: center;
+}
+
+.navItems {
+  padding: 20px 0;
+}
+
+.name {
+  width: 30%;
+}
+
+.track {
+  width: 20%;
+}
+
+.others {
+  width: 10%;
+}
+
+.last {
+  border-right: 0;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.rankDisplay {
+  display: flex;
+  justify-content: space-evenly;
+  width: 133.2%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.internsRankCard {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.199);
+  transition: 1s;
+  width: 20%;
+  color: #000;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.silver {
+  background-image: linear-gradient(to bottom left, #b4b4b4, #7a7878);
+}
+
+.gold {
+  background-image: linear-gradient(to bottom left, #ddbc02, #da8f03);
+}
+
+.bronze {
+  background-image: linear-gradient(to bottom right, #c2701e, #88490d);
+}
+
+.internsRankCard:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.299);
+  border-radius: 20px;
+}
+
+.internsRankCard h1 {
+  text-align: center;
+  color: #000;
+  font-size: 150px;
+  margin: 0;
+  padding: 0;
+}
+
+.drop {
+  margin-top: 70px;
+}
+
+.top {
+  margin-bottom: 70px;
+}
